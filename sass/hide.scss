@@ -1,0 +1,51 @@
+//VISIBLE
+
+@media screen and (max-width: 1140px) {
+  .visible-print-xl {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .visible-print-lg {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .visible-print-md {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .visible-print-sm {
+    display: block;
+  }
+}
+
+//HIDDEN
+
+@media screen and (max-width: 1140px) {
+  .hidden-print-xl {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .hidden-print-lg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .hidden-print-md {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .hidden-print-sm {
+    display: none;
+  }
+}

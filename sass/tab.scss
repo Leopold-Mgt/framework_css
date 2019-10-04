@@ -1,0 +1,23 @@
+.tab-pane {
+  &:active {
+    background-color: #007bff;
+  }
+}
+
+.tab-content {
+  display: none;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 2rem;
+  background-color: #f8f9fa;
+
+  & * {
+    min-width: auto;
+    min-height: auto;
+  }
+
+  & img {
+    width: 300px;
+    margin: auto;
+  }
+}
